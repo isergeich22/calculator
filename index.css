@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #bbdefb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    flex-wrap: wrap;
+}
+.input{
+    height: 35px;
+    width: 344px;
+    border: 2px solid #bbdefb;
+}
+.button {
+    width: 78.8px;
+    height: 78.8px;
+    background: #e8eaf6;
+    margin: 2px;
+    border: 1px solid #bbdefb;    
+}
+.text{
+    padding-top: 4%;
+    text-align: center;    
+}
